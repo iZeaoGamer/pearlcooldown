@@ -68,7 +68,7 @@ class Plugin extends PluginBase implements Listener
 			$player = $event->getPlayer();
 			if ($player instanceof Player) {
 				if (isset($this->needToBeGivenEPearl[$player->getName()])) {
-					$this->getServer()->getScheduler()->scheduleRepeatingTask(new Delay($this, $player), 10);
+					$this->getServer()->getScheduler()->scheduleRepeatingTask(new Delay($this, $player), 2);
 					unset($this->needToBeGivenEPearl[$player->getName()]);
 				}
 			}
