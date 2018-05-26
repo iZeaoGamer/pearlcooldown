@@ -7,3 +7,5 @@ This plugin has been modified to work with PMMP ALPHA 12.
 Some of the old betas of ALPHA 11 work with this but don't leave issues for older versions because pearls are newer to pocketmine.
 
 The only issue with this is that when standing still and on cooldown, when throwing a pearl they won't get it back as reliably as they would if moving.
+
+I'm pretty new to coding so thanks for all the help from @xZeroMCPE and @CortexPE, this wouldn't have been doable without them.
